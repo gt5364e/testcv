@@ -1,0 +1,30 @@
+body{
+  background-color: #393E46;
+  text-align: center;
+}
+
+.winner{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+.mainTable{
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Indie Flower';
+  color: #4ECCA3;
+}
+
+.rollButton{
+  font-family: 'Lobster';
+  font-size: 3rem;
+  color: #4ECCA3;
+}
+
+.dice{
+  padding: 3%;
+}
