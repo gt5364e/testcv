@@ -57,10 +57,7 @@ function animatePress(currentColor){
   });
 }
 
-// Start the game with a keypress listener
-$(document).keypress(function(){
-  nextSequence();
-});
+
 
 // Check the current click is correct in the user sequence
 function checkAnswer(){
@@ -87,6 +84,19 @@ function checkAnswer(){
     startOver();
   }
 }
+
+
+
+// // Start the game with a keypress listener
+// $(document).keypress(function(){
+//   nextSequence();
+// });
+
+// Start the game by clicking start
+$("#startButton").click(function(){
+  nextSequence();
+  $("#startButton").fadeOut(200);
+})
 
 // Reset variables to start the game OVER
 function startOver(){

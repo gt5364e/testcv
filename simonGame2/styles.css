@@ -17,6 +17,15 @@ body {
 
 }
 
+.startButton {
+  height: 60px;
+  width: 300px;
+  background-color: #FEF2BF;
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive;
+  margin: auto;
+}
+
 .btn {
   margin: 25px;
   display: inline-block;
